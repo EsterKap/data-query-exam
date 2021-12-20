@@ -1,7 +1,8 @@
 from dataclasses import dataclass
 
+
 @dataclass
-class Item():
+class Item:
     id: str
     title: str
     content: str
